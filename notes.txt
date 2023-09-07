@@ -1,0 +1,28 @@
+Brief:
+  Written in Asmebly with a CPP driver code, calculate distances, speeds and times 
+
+Prompt:
+  Jacob Corletto, a student of 240 in an earlier semester, goes frequently to Las Vegas. There
+  he studies the operation of the roulette wheel for scientific knowledge. The distance from CSUF
+  East Parking structure to the valet parking at the Luxor hotel is 253.5 miles. On a typical
+  Monday or Wednesday he leaves CSUF at 10am and rides a Harley FXDR114 non-stop to the
+  Luxor. During the iritial part of the trip he rides at a safe average speed of <input number here>
+  mph. After traveling <input#miles> he sees that no members of the CHP are in the vicinty, and
+  therefore, finishes the final leg of the trip at <input speed here> mph. He maintains that final
+  speed until he arrives at valet parking of the Luxor. After checking into his suite he participates
+  in the 240 lecture at 2pm, after which goes to scientifically research why roulette wheels spin.
+
+Questions to be answered by software:
+  What was Richard’s average speed for the entire trip?
+  How much time in hours was required to make the complete trip?
+
+variables:
+  distance = 253.5 miles
+  first speed = user input
+  first leg = user input
+  second leg = distance - first leg
+  second speed = user input
+  
+  final time = (first leg / first speed) + (second leg / second speed)
+  average speed = (first speed + second speed) / final time
+  
